@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://static4.depositphotos.com/1007330/391/i/600/depositphotos_3919019-stock-photo-resort.jpg");
+ul {
+  list-style:none;
+  margin: 0px;
+  paddin-left: 0px;
+  margin-top: 25px;
+  background: #FF4444;
+  height: 50px
+}
+a {
+  text-decoration: none;
+  background: #FF4444;
+  color: #ffff00;
+  padding: 0px 30px;
+  font-famaly: arial;
+  line-height: 50px;
+  display: block;
+  border-right: 1px solid;
+  }
+a:hover {
+  background: black;
+}
+li{
+  float: left;
+  margin-right: 5px;
+}
+  li > ul {
+    position: absolute;
+    top: 25px;
+      display: none;
+  }
+  li:hover > ul {
+    display: block;
+    width: 100px;
+  }
+  li:hover > ul > li {
+    float: none;
+  }

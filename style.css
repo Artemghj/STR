@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "RubikWetPaint-Regular";
+  src: url("/fonts/RubikWetPaint-Regular.ttf");
+}
+  color:blue;
+  font-size: 20pt;
+    
+  
+}
+i{
+  color: green;
+  font-size: 20pt;
+}
+body{
+    background-image: url("https://static4.depositphotos.com/1007330/391/i/600/depositphotos_3919019-stock-photo-resort.jpg");
+}
+
+ol{
+  color:green;
+}
+#red {
+  color: green;
+  font-size: 20pt;
+}
+.yellow {
+  color: yellow;
+}
+a {
+  text-decoration: line-through;
+  color:white;
+  font-size: 20pt;
+}
+* {
+  font-family: "RubikWetPaint-Regular.ttf";
+}
